@@ -1,0 +1,86 @@
+.success-container {
+	width: 100%;
+	margin: 0 auto;
+	z-index: 1;
+	overflow: hidden;
+	height: 541px;
+}
+
+.success-head {
+	width: 100%;
+	display: block;
+	z-index: 9;
+	position: absolute;
+	top: 40px;
+	text-align: center;
+}
+
+.success-head i {
+	font-size: 78px;
+}
+
+.success-head p {
+	text-align: center;
+	display: block;
+	font-size: 24px;
+	padding: 0 20px 10px; 
+	margin: 10px auto 0;
+	color: whitesmoke;
+	text-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+.bg-container {
+	width: 105%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	top: -200px;
+	left: -10px;
+	z-index: 0;
+}
+
+.success-bg {
+	z-index: -1;
+	-webkit-filter: blur(4px) brightness(0.7);
+	-moz-filter: blur(4px) brightness(0.7);
+	-o-filter: blur(4px) brightness(0.7);
+	-ms-filter: blur(4px) brightness(0.7);
+	filter: blur(4px) brightness(0.7);
+}
+
+.success-ket {
+	padding: 0 20%;
+	position: relative;
+	z-index: 19;
+	top: -220px;
+	font-size: 14px;
+}
+
+.success-ket h4 {
+	margin-top: 40px;
+}
+
+.success-ket ul {
+	margin-left: 40px;
+}
+
+.success-ket ul li {
+	margin: 8px 0; 
+}
+
+.invoice-link {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	background: #E26A07;
+	width: 180px;
+	padding: 10px;
+	color: whitesmoke;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.invoice-link:hover {
+	background: #036769;
+}
